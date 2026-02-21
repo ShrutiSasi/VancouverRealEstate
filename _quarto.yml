@@ -1,0 +1,24 @@
+project:
+  type: website
+  render:
+    - README.md
+    - CONTRIBUTING.md
+    - LICENSE.md
+
+website:
+  title: "Vancouver Real Estate"
+  navbar:
+    title-href: README.md
+    left:
+      - text: "Contributing"
+        href: CONTRIBUTING.md
+      - text: "License"
+        href: LICENSE.md        
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
