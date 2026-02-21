@@ -1,0 +1,1 @@
+An interactive data dashboard that analyzes the Vancouver real estate market using 20 years of historical housing data (2004–2023). The application visualizes price trends, neighbourhood comparisons, and market dynamics to provide actionable insights for buyers, investors, and analysts. Built to support data-driven decision-making through intuitive and interactive visualizations.
