@@ -21,7 +21,7 @@ The dashboard transforms complex datasets into a user-friendly, visual interface
 
 ## Section 2: Description of the Data
 
-We will use the “Vancouver House Prices for Past 20 Years” dataset from ([Kaggle](https://www.kaggle.com/datasets/jennyzzhu/vancouver-house-prices-for-past-20-years)
+We will use the “Vancouver House Prices for Past 20 Years” dataset from [Kaggle](https://www.kaggle.com/datasets/jennyzzhu/vancouver-house-prices-for-past-20-years)
 
 **Dataset Overview:**
 Rows: ~3521 entries
@@ -77,13 +77,13 @@ Sketch:
 Note: This mockup shows a landing page with an interactive map, filters, summary stats, and charts.
 
 **Description of Components:**
-Interactive Map: Displays property locations with color-coded market prices.
-Year Filter: Slider to select specific years or ranges.
-Neighborhood Filter: Multi-select dropdown to focus on specific areas.
-Property Type Filter: Radio button to filter by type (house, condo, townhouse).
-Summary Stats: Panels showing average price, highest/lowest price, and growth rate.
-Average Market price Bar Chart: Historical price trends per neighborhood.
-Top Neighborhoods Line Chart: Top 5 neighborhoods trend by market price.
+- **Interactive Map:** Displays property locations with color-coded market prices.
+- **Year Filter:** Slider to select specific years or ranges.
+- **Neighborhood Filter:** Multi-select dropdown to focus on specific areas.
+- **Property Type Filter:** Radio button to filter by type (house, condo, townhouse).
+- **Summary Stats:** Panels showing average price, highest/lowest price, and growth rate.
+- **Average Market price Bar Chart:** Historical price trends per neighborhood.
+- **Top Neighborhoods Line Chart:** Top 5 neighborhoods trend by market price.
 
 Interactions:
 Users can combine filters to narrow down results.
