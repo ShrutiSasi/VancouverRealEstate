@@ -1,0 +1,32 @@
+################################################################################
+# Project Configuration
+################################################################################
+
+[project]
+name = "vancouver_real_estate"
+dynamic = ["version"] ##release
+description = "An interactive data dashboard that analyzes the Vancouver real estate market using 20 years of historical housing data (2004–2023)."
+authors = [
+    { name = "Shruti Sasi", email = "shruti.sasi14@live.com" },
+]
+license = "MIT"
+requires-python = ">= 3.12" 
+readme = {"file" = "README.md", "content-type" = "text/markdown"}
+# Please consult https://pypi.org/classifiers/ for a full list.
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+]
+# TODO: add keywords
+keywords = []
+# TODO: add dependencies
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/ShrutiSasi/VancouverRealEstate"
+"Source Code" = "https://github.com/ShrutiSasi/VancouverRealEstate"
+"Bug Tracker" = "https://github.com/ShrutiSasi/VancouverRealEstate/issues"
+Documentation = "https://github.com/ShrutiSasi/VancouverRealEstate/blob/main/README.md"
