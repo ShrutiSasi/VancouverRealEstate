@@ -33,6 +33,14 @@ conda env create -f environment.yml
 conda activate van_real_est
 ```
 
+### Running shiny app locally
+Run the below command in terminal after activating `van_real_est` environment
+```bash
+shiny run --reload src/app.py
+```
+Open the link from the command output INFO, in a browser to view the dashboard
+![shiny run](../img/shiny_run_output.png)
+
 ## Contributing
 
 Interested in contributing? Check out the contributing guidelines [here](./CONTRIBUTING.md). Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
