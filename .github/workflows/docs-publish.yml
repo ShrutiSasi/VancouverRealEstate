@@ -9,7 +9,7 @@ jobs:
   build-docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -19,18 +19,18 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -e ".[docs]"
-          #pip install quartodoc
+          pip install quartodoc
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Build quartodoc
-        run: |
-          quartodoc build --verbose
+      #- name: Build quartodoc
+      #  run: |
+      #    quartodoc build --verbose
 
       - name: Render Quarto site
         run: |
-          quarto render
+          quarto render .
   
       - name: Publish to gh-pages branch
         uses: quarto-dev/quarto-actions/publish@v2

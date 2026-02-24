@@ -1,0 +1,13 @@
+jupyter
+shiny
+shinywidgets
+altair
+pandas
+seaborn
+numpy
+matplotlib
+plotly
+ruff
+hatch
+pytest
+pytest-cov
