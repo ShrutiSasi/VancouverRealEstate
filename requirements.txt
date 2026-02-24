@@ -1,5 +1,6 @@
 jupyter
 shiny
+shinywidgets
 altair
 pandas
 seaborn
