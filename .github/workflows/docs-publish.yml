@@ -24,9 +24,9 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Build quartodoc
-        run: |
-          quartodoc build --verbose
+      #- name: Build quartodoc
+      #  run: |
+      #    quartodoc build --verbose
 
       - name: Render Quarto site
         run: |
