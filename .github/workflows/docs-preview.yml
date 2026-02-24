@@ -28,9 +28,9 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      #- name: quartodoc build
-       # run: |
-       #   quartodoc build
+      - name: quartodoc build
+        run: |
+          quartodoc build
 
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
